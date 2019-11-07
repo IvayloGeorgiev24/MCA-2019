@@ -2,6 +2,8 @@
   font-size: 24pt;
 }
 
-song{
-  font-size:40pt;
+mei-filedesc > song > artist-name{
+  color: #595b66;
+  display: block;
+  font-size: 48pt;
 }
