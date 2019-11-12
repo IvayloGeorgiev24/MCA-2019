@@ -10,7 +10,6 @@
             <respStmt>
                <persName xml:id="pers12345" role="composer" authURI="http://viaf.org/viaf/44499359" authority="VIAF">Alex Da Kid</persName>
                <persName xml:id="pers12345" role="composer" authURI="http://viaf.org/viaf/44499359" authority="VIAF">Imagine Dragons</persName>
-			   <persName role="album">Night Visions</persName>
 			   <persName role="encoder">User C.M on MuseScore</persName>
 			   <persName role="encoder">Ivaylo Georgiev</persName>
             </respStmt>
