@@ -38,10 +38,6 @@ mei-filedesc > mei-pubstmt > mei-respstmt {
   display: none;
 }
 
-mei-pubstmt > mei-address {
-  display: none;
-}
-
 mei-filedesc > mei-pubstmt > mei-date::before {
   font-weight: bold;
   content: "Date encoded: "
@@ -63,35 +59,10 @@ mei-filedesc > mei-pubstmt > mei-availability > mei-userestrict::after {
   white-space: pre;
 }
 
-mei-seriesstmt {
-  display: none;
-}
-
 mei-filedesc > mei-sourcedesc > mei-source > mei-identifier {
   display: none;
 }
 
 mei-filedesc > mei-sourcedesc > mei-source > mei-identifier {
   display: none;
-}
-
-mei-filedesc > mei-sourcedesc > mei-source > mei-titlestmt::before {
-  font-weight: bold;
-  content: "Source: ";
-}
-
-mei-filedesc > mei-sourcedesc > mei-source > mei-titlestmt {
-  display: block;
-}
-
-mei-filedesc > mei-sourcedesc > mei-source > mei-titlestmt > mei-title[type="uniform"]::before {
-  content: "(";
-}
-
-mei-filedesc > mei-sourcedesc > mei-source > mei-titlestmt > mei-title[type="uniform"] {
-  font-style: italic;
-}
-
-mei-filedesc > mei-sourcedesc > mei-source > mei-titlestmt > mei-title[type="uniform"]::after {
-  content: ")";
 }
