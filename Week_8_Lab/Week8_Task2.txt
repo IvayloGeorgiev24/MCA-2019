@@ -1,0 +1,4 @@
+Time-frequency analysis allows for a better representation of frequency throughout time. This can be helpful for
+extracting information, whereas waveform analysis does not provide that much of a distinct representation of frequency over time.
+For example, in the YungKartz song, the spectogram representation shows a better dipiction of the frequency variation
+over time.
