@@ -9,5 +9,7 @@
 			<xs:element name = "release-date" type = "xs:int" />
 			<xs:element name = "album" type = "xs:string" />
 			<xs:element name = "original-composition-on-musescore" type = "xs:string" />
+	</xs:sequence>
+      </xs:complexType>
    </xs:element>
 </xs:schema>
