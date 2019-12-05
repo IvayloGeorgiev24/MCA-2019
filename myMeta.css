@@ -4,7 +4,7 @@
 }
 
 mei-filedesc > mei-titlestmt > mei-title {
-  color: #595b66;
+  color: #000000;
   display: block;
 }
 
@@ -20,10 +20,6 @@ mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="encoder"]::befor
 
 #composer {
   margin-top: 2em;
-}
-
-mei-filedesc > mei-pubstmt > mei-respstmt {
-  display: none;
 }
 
 mei-filedesc > mei-pubstmt > mei-date::before {
