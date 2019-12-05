@@ -8,19 +8,12 @@ mei-filedesc > mei-titlestmt > mei-title {
   display: block;
 }
 
-mei-filedesc > mei-titlestmt > mei-respstmt {
-  display: block;
-  margin-top: 1em;
-}
-
 mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="composer"]::before {
-  font-weight: bold;
   content: '\a'"Composer: ";
   white-space: pre;
 }
 
 mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="encoder"]::before {
-  font-weight: bold;
   content: '\a'"Encoded by: ";
   white-space: pre;
 }
@@ -34,7 +27,6 @@ mei-filedesc > mei-pubstmt > mei-respstmt {
 }
 
 mei-filedesc > mei-pubstmt > mei-date::before {
-  font-weight: bold;
   content: "Date encoded: "
 }
 
