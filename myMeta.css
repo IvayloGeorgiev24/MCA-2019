@@ -15,43 +15,43 @@ mei-filedesc > mei-titlestmt > mei-title {
 }
 
 mei-filedesc > mei-titlestmt > mei-album::before {
-  font-weight: bold
+  font-weight: bold;
   content: '\a'"Album: ";
   white-space: pre;
 }
 
 mei-filedesc > mei-pubstmt> mei-respstmt > mei-yearpublished::before {
-  font-weight: bold
+  font-weight: bold;
   content: '\a'"Published: ";
   white-space: pre;
 }
 
 mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="composer"]::before {
-  font-weight: bold
+  font-weight: bold;
   content: '\a'"Composer: ";
   white-space: pre;
 }
 
 mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="producer"]::before {
-  font-weight: bold
+  font-weight: bold;
   content: '\a'"Producer: ";
   white-space: pre;
 }
 
 mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="encoder"]::before {
-  font-weight: bold
+  font-weight: bold;
   content: '\a'"Encoded by: ";
   white-space: pre;
 }
 
 mei-filedesc > mei-pubstmt> mei-respstmt > mei-corpname::before {
-  font-weight: bold
+  font-weight: bold;
   content: '\a'"Label: ";
   white-space: pre;
 }
 
 mei-filedesc > mei-pubstmt > mei-date::before {
-  font-weight: bold
+  font-weight: bold;
   content: '\a'"Date encoded: ";
   white-space: pre;
 }
