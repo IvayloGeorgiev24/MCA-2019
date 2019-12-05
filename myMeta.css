@@ -38,11 +38,6 @@ mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="encoder"]::befor
   white-space: pre;
 }
 
-#composer {
-  text-align: center;
-  margin-top: 2em;
-}
-
 mei-filedesc > mei-pubstmt> mei-respstmt > mei-corpname::before {
  text-align: center;
   content: '\a'"Label: ";
