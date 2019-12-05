@@ -19,7 +19,7 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 18px;
-  font-family:Arial;
+  font-family:Helvetica;
   text-transform: uppercase;
   max-width:100%;
 }
@@ -58,7 +58,7 @@ a{
 h1{
 	text-align:center;
 	text-transform:uppercase;
-	font-family: Impact;
+	font-family: Helvetica;
 	font-size: 50px;
 }
 
