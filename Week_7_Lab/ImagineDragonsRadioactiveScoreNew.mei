@@ -6,8 +6,10 @@
          <fileDesc>
          <titleStmt>
             <title xml:id="piecetitle">Radioactive</title>
+	    <album>Night Visions</album>
             <respStmt>
-               <persName xml:id="composer" role="composer" authURI="http://viaf.org/viaf/44499359" authority="VIAF">Alex Da Kid and Imagine Dragons</persName>
+               <persName xml:id="composer" role="composer">Imagine Dragons</persName>
+		<persName xml:id="producer" role="producer">Alex Da Kid</persName>    
 			   <persName role="encoder">User C.M on MuseScore</persName>
 			   <persName role="encoder">Ivaylo Georgiev</persName>
             </respStmt>
