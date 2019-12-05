@@ -8,9 +8,27 @@ mei-filedesc > mei-titlestmt > mei-title {
   color: #000000;
 }
 
+mei-filedesc > mei-titlestmt > mei-album {
+  text-align: center;
+  content: '\a'"Album: ";
+  white-space: pre;
+}
+
+mei-filedesc > mei-pubstmt> mei-respstmt > mei-yearpublished::before {
+ text-align: center;
+  content: '\a'"Published: ";
+  white-space: pre;
+}
+
 mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="composer"]::before {
   text-align: center;
   content: '\a'"Composer: ";
+  white-space: pre;
+}
+
+mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="producer"]::before {
+  text-align: center;
+  content: '\a'"Producer: ";
   white-space: pre;
 }
 
@@ -27,13 +45,7 @@ mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="encoder"]::befor
 
 mei-filedesc > mei-pubstmt> mei-respstmt > mei-corpname::before {
  text-align: center;
-  content: '\a'"Corpname: ";
-  white-space: pre;
-}
-
-mei-filedesc > mei-pubstmt> mei-respstmt > mei-yearpublished::before {
- text-align: center;
-  content: '\a'"Published: ";
+  content: '\a'"Label: ";
   white-space: pre;
 }
 
