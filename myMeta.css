@@ -26,6 +26,12 @@ mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="encoder"]::befor
   margin-top: 2em;
 }
 
+mei-filedesc > mei-pubstmt> mei-respstmt > mei-corpname::before {
+ text-align: center;
+  content: '\a'"Corpname: ";
+  white-space: pre;
+}
+
 mei-filedesc > mei-pubstmt > mei-date::before {
   text-align: center;
   content: "Date encoded: "
