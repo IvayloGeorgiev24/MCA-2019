@@ -6,7 +6,6 @@
 mei-filedesc > mei-titlestmt > mei-title {
   text-align: center;
   color: #000000;
-  display: block;
 }
 
 mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="composer"]::before {
@@ -27,11 +26,13 @@ mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="encoder"]::befor
 }
 mei-filedesc > mei-pubstmt> mei-respstmt > mei-corpname::before {
  text-align: center;
-  content: '\a' "Corpname: "
+  content: '\a'"Corpname: ";
+  white-space: pre;
 }
 mei-filedesc > mei-pubstmt > mei-date::before {
   text-align: center;
-  content: '\a' "Date encoded: "
+  content: '\a'"Date encoded: ";
+  white-space: pre;
 }
 
 mei-filedesc > mei-pubstmt > mei-date::after {
