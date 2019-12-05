@@ -6,7 +6,7 @@
          <fileDesc>
          <titleStmt>
             <title xml:id="piecetitle">Radioactive</title>
-	    <album>Night Visions</album>
+	    <album xml:id="album">Night Visions</album>
             <respStmt>
                <persName xml:id="composer" role="composer">Imagine Dragons</persName>
 		<persName xml:id="producer" role="producer">Alex Da Kid</persName>    
@@ -17,8 +17,8 @@
          <pubStmt>
             <respStmt>
 		    <yearPublished>2012</yearPublished>
-               <corpName codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">KidinaKorner</corpName>
-			   <corpName codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Interscope</corpName>
+               <corpName xml:id="label" codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">KidinaKorner</corpName>
+			   <corpName xml:id="label" codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Interscope</corpName>
             </respStmt>
             <date>2019</date>
             <availability>
