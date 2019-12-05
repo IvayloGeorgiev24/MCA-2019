@@ -1,56 +1,48 @@
+?* Inspiration drawn from Tim Duguid's code */
 #piecetitle {
   font-size: 24pt;
 }
 
 mei-filedesc > mei-titlestmt > mei-title {
-  text-align: center;
   color: #000000;
 }
 
 mei-filedesc > mei-titlestmt > mei-album::before {
-  text-align: center;
   content: '\a'"Album: ";
   white-space: pre;
 }
 
 mei-filedesc > mei-pubstmt> mei-respstmt > mei-yearpublished::before {
- text-align: center;
   content: '\a'"Published: ";
   white-space: pre;
 }
 
 mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="composer"]::before {
-  text-align: center;
   content: '\a'"Composer: ";
   white-space: pre;
 }
 
 mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="producer"]::before {
-  text-align: center;
   content: '\a'"Producer: ";
   white-space: pre;
 }
 
 mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="encoder"]::before {
-  text-align: center;
   content: '\a'"Encoded by: ";
   white-space: pre;
 }
 
 mei-filedesc > mei-pubstmt> mei-respstmt > mei-corpname::before {
- text-align: center;
   content: '\a'"Label: ";
   white-space: pre;
 }
 
 mei-filedesc > mei-pubstmt > mei-date::before {
-  text-align: center;
   content: '\a'"Date encoded: ";
   white-space: pre;
 }
 
 mei-filedesc > mei-pubstmt > mei-date::after {
-  text-align: center;
   content: '\a \a';
   white-space: pre;
 }
