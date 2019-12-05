@@ -14,6 +14,7 @@
          </titleStmt>
          <pubStmt>
             <respStmt>
+		    <yearPublished>2012</yearPublished>
                <corpName codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">KidinaKorner</corpName>
 			   <corpName codedval="5115204-6" authURI="http://d-nb.info/gnd" authority="GND">Interscope</corpName>
             </respStmt>
