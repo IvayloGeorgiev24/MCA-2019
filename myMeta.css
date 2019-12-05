@@ -4,29 +4,35 @@
 }
 
 mei-filedesc > mei-titlestmt > mei-title {
+  text-align: center;
   color: #000000;
   display: block;
 }
 
 mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="composer"]::before {
+  text-align: center;
   content: '\a'"Composer: ";
   white-space: pre;
 }
 
 mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="encoder"]::before {
+  text-align: center;
   content: '\a'"Encoded by: ";
   white-space: pre;
 }
 
 #composer {
+  text-align: center;
   margin-top: 2em;
 }
 
 mei-filedesc > mei-pubstmt > mei-date::before {
+  text-align: center;
   content: "Date encoded: "
 }
 
 mei-filedesc > mei-pubstmt > mei-date::after {
+  text-align: center;
   content: '\a \a';
   white-space: pre;
 }
