@@ -7,36 +7,43 @@ mei-filedesc > mei-titlestmt > mei-title {
 }
 
 mei-filedesc > mei-titlestmt > mei-album::before {
+  font-style: italic;
   content: '\a'"Album: ";
   white-space: pre;
 }
 
 mei-filedesc > mei-pubstmt> mei-respstmt > mei-yearpublished::before {
+  font-style: bold;
   content: '\a'"Published: ";
   white-space: pre;
 }
 
 mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="composer"]::before {
+  font-style: bold;
   content: '\a'"Composer: ";
   white-space: pre;
 }
 
 mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="producer"]::before {
+  font-style: bold;
   content: '\a'"Producer: ";
   white-space: pre;
 }
 
 mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="encoder"]::before {
+  font-style: bold;
   content: '\a'"Encoded by: ";
   white-space: pre;
 }
 
 mei-filedesc > mei-pubstmt> mei-respstmt > mei-corpname::before {
+  font-style: italic;
   content: '\a'"Label: ";
   white-space: pre;
 }
 
 mei-filedesc > mei-pubstmt > mei-date::before {
+  font-style: bold;
   content: '\a'"Date encoded: ";
   white-space: pre;
 }
