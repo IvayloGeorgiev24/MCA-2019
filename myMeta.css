@@ -1,12 +1,6 @@
 /* This code was designed by Tim Duguid */ 
-#title12345 {
+#piecetitle {
   font-size: 24pt;
-}
-
-mei-title[type="subordinate"] {
-  font-size: 18pt;
-  font-variant-caps: small-caps;
-  margin-top: -0.5em;
 }
 
 mei-filedesc > mei-titlestmt > mei-title {
@@ -31,7 +25,7 @@ mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="encoder"]::befor
   white-space: pre;
 }
 
-#pers12345 {
+#composer {
   margin-top: 2em;
 }
 
