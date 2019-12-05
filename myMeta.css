@@ -33,7 +33,7 @@ mei-filedesc > mei-pubstmt> mei-respstmt > mei-corpname::before {
 
 mei-filedesc > mei-pubstmt> mei-respstmt > mei-yearpublished::before {
  text-align: center;
-  content: '\a'"Year Published: ";
+  content: '\a'"Published: ";
   white-space: pre;
 }
 
