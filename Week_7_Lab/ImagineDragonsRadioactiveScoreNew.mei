@@ -7,7 +7,7 @@
          <titleStmt>
             <title xml:id="piecetitle">Radioactive</title>
             <respStmt>
-               <persName xml:id="composer" role="composer" authURI="http://viaf.org/viaf/44499359" authority="VIAF">Alex Da Kid & Imagine Dragons</persName>
+               <persName xml:id="composer" role="composer" authURI="http://viaf.org/viaf/44499359" authority="VIAF">Alex Da Kid and Imagine Dragons</persName>
 			   <persName role="encoder">User C.M on MuseScore</persName>
 			   <persName role="encoder">Ivaylo Georgiev</persName>
             </respStmt>
