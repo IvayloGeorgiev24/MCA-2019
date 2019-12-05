@@ -2,48 +2,56 @@
   font-size: 24pt;
 }
 
+#album{
+  font-style:italic;
+}
+
+#label{
+  font-style:italic;
+}
+
 mei-filedesc > mei-titlestmt > mei-title {
   color: #000000;
 }
 
 mei-filedesc > mei-titlestmt > mei-album::before {
-  font-style: italic;
+  font-weight: bold
   content: '\a'"Album: ";
   white-space: pre;
 }
 
 mei-filedesc > mei-pubstmt> mei-respstmt > mei-yearpublished::before {
-  font-style: bold;
+  font-weight: bold
   content: '\a'"Published: ";
   white-space: pre;
 }
 
 mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="composer"]::before {
-  font-style: bold;
+  font-weight: bold
   content: '\a'"Composer: ";
   white-space: pre;
 }
 
 mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="producer"]::before {
-  font-style: bold;
+  font-weight: bold
   content: '\a'"Producer: ";
   white-space: pre;
 }
 
 mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="encoder"]::before {
-  font-style: bold;
+  font-weight: bold
   content: '\a'"Encoded by: ";
   white-space: pre;
 }
 
 mei-filedesc > mei-pubstmt> mei-respstmt > mei-corpname::before {
-  font-style: italic;
+  font-weight: bold
   content: '\a'"Label: ";
   white-space: pre;
 }
 
 mei-filedesc > mei-pubstmt > mei-date::before {
-  font-style: bold;
+  font-weight: bold
   content: '\a'"Date encoded: ";
   white-space: pre;
 }
